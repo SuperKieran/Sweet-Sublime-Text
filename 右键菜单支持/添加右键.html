@@ -1,0 +1,50 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="Kieran">
+</head>
+<body>
+  <h1>请以管理员权限运行IE浏览器打开此文件</h1>
+  <label for="file">请选择sublime_text.exe文件：</label>
+  <input type="file" name="file" id="file">
+  <br><br>
+  <button id="add-right">添加右键菜单</button>
+  <br><br>
+  <button id="delete-right">删除右键菜单</button>
+  <br><br>
+  <button id="run-regedit">运行注册表</button>
+  <script>
+    function $ (id) {
+      return document.getElementById(id);
+    }
+
+    var shell = new ActiveXObject("WScript.Shell");
+
+    $('run-regedit').addEventListener('click', function() {
+      shell.Run('Regedit');
+    });
+    $('add-right').addEventListener('click', function() {
+      var sublimePath = $('file').value;
+      if (confirm('请确认Sublime Text的当前路径是："' + sublimePath + '"')) {
+        var icon = sublimePath + ',0';
+        var editFile = sublimePath + ' %1';
+        var openDirctory = sublimePath + ' -n ' + '"%1"';
+        shell.RegWrite('HKEY_CLASSES_ROOT\\*\\shell\\Edit with Sblime Text\\Icon', icon);
+        shell.RegWrite('HKEY_CLASSES_ROOT\\*\\shell\\Edit with Sblime Text\\command\\', editFile);
+        shell.RegWrite('HKEY_CLASSES_ROOT\\Directory\\shell\\Open with SubLime Text\\Icon', icon);
+        shell.RegWrite('HKEY_CLASSES_ROOT\\Directory\\shell\\Open with SubLime Text\\Command\\', openDirctory);
+        alert('添加右键菜单成功！');
+      }
+    });
+    $('delete-right').addEventListener('click', function() {
+      shell.RegDelete('HKEY_CLASSES_ROOT\\*\\shell\\Edit with Sblime Text\\Icon');
+      shell.RegDelete('HKEY_CLASSES_ROOT\\*\\shell\\Edit with Sblime Text\\command\\');
+      shell.RegDelete('HKEY_CLASSES_ROOT\\*\\shell\\Edit with Sblime Text\\');
+      shell.RegDelete('HKEY_CLASSES_ROOT\\Directory\\shell\\Open with SubLime Text\\Icon');
+      shell.RegDelete('HKEY_CLASSES_ROOT\\Directory\\shell\\Open with SubLime Text\\Command\\');
+      shell.RegDelete('HKEY_CLASSES_ROOT\\Directory\\shell\\Open with SubLime Text\\');
+      alert('删除右键菜单成功！');
+    });
+  </script>
+</body>
+</html>
