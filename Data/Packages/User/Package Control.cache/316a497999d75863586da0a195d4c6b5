@@ -1,0 +1,19 @@
+{
+    "schema_version": "3.0.0",
+
+    "packages": [
+
+        {
+            "name": "Neon Color Scheme",
+            "details": "https://github.com/MattDMo/Neon-color-scheme",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "tags": true
+                }
+            ],
+            "previous_names": ["Neon Theme"],
+            "labels": ["color scheme"]
+        }
+    ]
+}

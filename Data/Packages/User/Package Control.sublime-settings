@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoCompleteJS",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"EditorConfig",
+		"EJS",
+		"Emmet",
+		"JsFormat",
+		"JSHint Gutter",
+		"Package Control",
+		"TrailingSpaces"
+	]
+}

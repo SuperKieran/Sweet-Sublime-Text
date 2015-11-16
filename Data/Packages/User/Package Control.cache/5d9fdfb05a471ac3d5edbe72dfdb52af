@@ -1,0 +1,45 @@
+{
+  "schema_version": "3.0.0",
+  "packages": [
+    {
+      "name": "DB1",
+      "description": "Commercial Database Client. Connect, Configure and Query Databases Directly From Sublime",
+      "author": "Sequoia Studios",
+      "homepage": "https://sequoiastudios.io/db1",
+      "buy": "https://sequoiastudios.io/db1",
+      "issues": "https://github.com/SequoiaStudios/DB1/issues",
+      "readme": "https://raw.githubusercontent.com/SequoiaStudios/DB1/master/PACKAGECONTROL.md",
+      "labels": ["postgresql", "mysql", "sqlite", "maria", "database"],
+      "releases": [
+        {
+          "sublime_text": "<3000",
+          "platforms": ["osx", "linux"],
+          "version": "1.1.0",
+          "url": "https://sequoiastudios.io/files/st2-nix/DB1.sublime-package",
+          "date": "2015-10-12 09:00:00"
+        },
+        {
+          "sublime_text": "<3000",
+          "platforms": ["windows"],
+          "version": "1.1.0",
+          "url": "https://sequoiastudios.io/files/st2-win/DB1.sublime-package",
+          "date": "2015-10-12 09:00:00"
+        },
+        {
+          "sublime_text": ">=3000",
+          "platforms": ["osx", "linux"],
+          "version": "1.1.0",
+          "url": "https://sequoiastudios.io/files/st3-nix/DB1.sublime-package",
+          "date": "2015-10-12 09:00:00"
+        },
+        {
+          "sublime_text": ">=3000",
+          "platforms": ["windows"],
+          "version": "1.1.0",
+          "url": "https://sequoiastudios.io/files/st3-win/DB1.sublime-package",
+          "date": "2015-10-12 09:00:00"
+        }
+      ]
+    }
+  ]
+}

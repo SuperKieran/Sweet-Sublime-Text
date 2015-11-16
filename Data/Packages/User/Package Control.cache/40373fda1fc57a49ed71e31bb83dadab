@@ -1,0 +1,16 @@
+{
+    "schema_version": "2.0",
+    "packages": [
+        {
+            "name": "i18n and l10n Helper",
+            "author": "z <z@rndz.org>",
+            "details": "https://github.com/cryz/sublime-i18n-and-l10n-helper",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/cryz/sublime-i18n-and-l10n-helper/tags"
+                }
+            ]
+        }
+    ]
+}

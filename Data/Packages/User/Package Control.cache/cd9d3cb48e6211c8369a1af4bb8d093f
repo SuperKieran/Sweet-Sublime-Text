@@ -1,0 +1,25 @@
+{
+    "packages": [
+        {
+            "buy": "https://sublimegit.net/buy", 
+            "name": "SublimeGit", 
+            "releases": [
+                {
+                    "url": "http://release.sublimegit.net/SublimeGit.sublime-package", 
+                    "date": "2015-08-08 18:06:05", 
+                    "version": "1.0.35", 
+                    "sublime_text": "*"
+                }
+            ], 
+            "author": "Michael Pedersen", 
+            "labels": [
+                "vcs", 
+                "git"
+            ], 
+            "homepage": "https://sublimegit.net", 
+            "issues": "https://github.com/SublimeGit/SublimeGit/issues", 
+            "description": "Full-featured Git integration for Sublime Text 2 and 3"
+        }
+    ], 
+    "schema_version": "2.0"
+}

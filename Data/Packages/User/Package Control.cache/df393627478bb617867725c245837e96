@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "Speech",
+            "description": "Speech recognition for Sublime Speech 2",
+            "author": "Mozillion",
+            "homepage": "https://github.com/Mozillion/SublimeSpeech",
+            "last_modified": "2013-01-27 00:00:00",
+            "platforms": {
+                "windows": [
+                    {
+                        "version": "1.0.1",
+                        "url": "https://nodeload.github.com/Mozillion/SublimeSpeech/zip/v1.0.1"
+                    }
+                ]
+            }
+        }
+    ]
+}

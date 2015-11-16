@@ -1,0 +1,153 @@
+{
+  "schema_version": "3.0.0",
+  "packages": [
+    {
+      "name": "AlignTab",
+      "details": "https://github.com/randy3k/AlignTab",
+      "description": "An alignment plugin using regular expression",
+      "author": "randy3k",
+      "releases": [
+        {
+          "sublime_text": "<3000",
+          "tags": "st2-"
+        },
+        {
+          "sublime_text": ">=3000",
+          "tags": "st3-"
+        }
+      ]
+    },
+    {
+      "name": "Auto Match Enabled",
+      "details": "https://github.com/randy3k/Auto-Match-Enabled",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "details": "https://github.com/randy3k/AutoWrap",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "details": "https://github.com/randy3k/ChangeList",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "details": "https://github.com/randy3k/Git-StatusBar",
+      "releases": [
+        {
+          "sublime_text": ">=3000",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "LaTeX-Plus",
+      "details": "https://github.com/randy3k/LaTeX-Plus",
+      "releases": [
+        {
+          "sublime_text": ">=3000",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "LaTeXTab",
+      "details": "https://github.com/randy3k/LaTeXTab",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "UnitTesting",
+      "details": "https://github.com/randy3k/UnitTesting",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "R-Box",
+      "details": "https://github.com/randy3k/R-Box",
+      "previous_names": ["Enhanced-R"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "Project Manager",
+      "details": "https://github.com/randy3k/Project-Manager",
+      "previous_names": ["Simple Project Manager"],
+      "releases": [
+        {
+          "sublime_text": ">3000",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "SendText+",
+      "details": "https://github.com/randy3k/SendTextPlus",
+      "previous_names": ["SendTextPlus"],
+      "releases": [
+        {
+          "sublime_text": ">3000",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "Syntax Manager",
+      "details": "https://github.com/randy3k/SyntaxMgr",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "Whitespace",
+      "details": "https://github.com/randy3k/Whitespace",
+      "releases": [
+        {
+          "sublime_text": "*",
+          "tags": true
+        }
+      ]
+    },
+    {
+      "name": "Wombat Color Scheme",
+      "details": "https://github.com/randy3k/Wombat",
+      "labels": ["color scheme"],
+      "previous_names": ["Wombat Extended"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "branch": "master"
+        }
+      ]
+    }
+  ]
+}

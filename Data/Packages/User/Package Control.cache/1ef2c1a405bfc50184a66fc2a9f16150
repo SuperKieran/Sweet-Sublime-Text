@@ -1,0 +1,20 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "Open Finder",
+			"previous_names": ["Sublime Finder"],
+			"details": "https://github.com/kallepersson/Sublime-Finder",
+			"description": "Provides a command for opening Finder in the current directory",
+			"author": "Kalle Persson",
+			"labels": ["finder", "integration"],
+			"releases": [
+				{
+					"platforms": ["osx"],
+					"sublime_text": "*",
+					"details": "https://github.com/kallepersson/Sublime-Finder/tags"
+				}
+			]
+		}
+	]
+}

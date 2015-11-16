@@ -1,0 +1,16 @@
+{
+    "schema_version": "2.0",
+    
+    "packages": [
+        {
+            "name": "PHP Code Coverage",
+            "details": "https://github.com/bradfeehan/SublimePHPCoverage",
+            "releases": [
+                {
+                    "sublime_text": "*",
+                    "details": "https://github.com/bradfeehan/SublimePHPCoverage/tags"
+                }
+            ]
+        }
+    ]
+}

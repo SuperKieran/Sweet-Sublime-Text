@@ -1,0 +1,410 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [
+        {
+            "name": "SublimeLinter",
+            "details": "https://github.com/SublimeLinter/SublimeLinter3",
+            "homepage": "http://sublimelinter.com",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter"],
+            "previous_names": ["SublimeLinter Beta"],
+            "releases": [
+                {
+                    "base": "https://github.com/SublimeLinter/SublimeLinter-for-ST2",
+                    "sublime_text": "<3000",
+                    "tags": true
+                },
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-annotations",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-chktex",
+            "labels": ["linting", "SublimeLinter", "latex"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-coffee",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "coffeescript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-coffeelint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "coffeescript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-cppcheck",
+            "labels": ["linting", "SublimeLinter", "c++"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-cpplint",
+            "labels": ["linting", "SublimeLinter", "c++"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-csslint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "css"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-flake8",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-flow",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-ghc",
+            "labels": ["linting", "SublimeLinter", "haskell"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-gjslint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-haml",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "haml"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-hlint",
+            "labels": ["linting", "SublimeLinter", "haskell"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-html-tidy",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "html"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-javac",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "java"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-jscs",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-jshint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-jsl",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-json",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "json"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-jsxhint",
+            "labels": ["linting", "SublimeLinter", "javascript"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-lua",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "lua"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-luacheck",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "lua"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-pep257",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-pep8",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-php",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "php"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-phpcs",
+            "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KXUYS4ARNHCN8",
+            "labels": ["linting", "SublimeLinter", "phpcs", "php"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-phplint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "php"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-phpmd",
+            "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KXUYS4ARNHCN8",
+            "labels": ["linting", "SublimeLinter", "phpmd", "php"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-pyflakes",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-pylint",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-pyyaml",
+            "labels": ["linting", "SublimeLinter", "python"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-rst",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "restructuredtext", "rst"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-rubocop",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "ruby"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-ruby",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "ruby"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-shellcheck",
+            "labels": ["linting", "SublimeLinter", "bash"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        },
+        {
+            "details": "https://github.com/SublimeLinter/SublimeLinter-xmllint",
+            "donate": "https://github.com/SublimeLinter/SublimeLinter3#share-the-love",
+            "labels": ["linting", "SublimeLinter", "xml"],
+            "releases": [
+                {
+                    "sublime_text": ">=3000",
+                    "tags": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+	"schema_version": "2.0",
+	"packages": [
+		{
+			"name": "ClosureMyJS",
+			"details": "https://github.com/fnkr/ST-ClosureMyJS",
+			"issues": "https://ge1.me/sublimetext-closure-issues",
+			"labels": ["build system", "javascript"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/fnkr/ST-ClosureMyJS/tags"
+				}
+			]
+		},
+		{
+			"name": "Pascal",
+			"details": "https://github.com/fnkr/ST-Pascal",
+			"issues": "https://ge1.me/sublimetext-pascal-issues",
+			"labels": ["language syntax", "snippets", "build system"],
+			"releases": [
+				{
+					"sublime_text": "<3000",
+					"details": "https://github.com/fnkr/ST-Pascal/tree/ST2"
+				}
+			]
+		},
+		{
+			"name": "Pascal Snippets",
+			"details": "https://github.com/fnkr/ST-Pascal",
+			"issues": "https://ge1.me/sublimetext-pascal-issues",
+			"labels": ["snippets", "build system"],
+			"releases": [
+				{
+					"sublime_text": ">2999",
+					"details": "https://github.com/fnkr/ST-Pascal/tree/ST3"
+				}
+			]
+		},
+		{
+			"name": "Sign",
+			"details": "https://github.com/fnkr/ST-Sign",
+			"issues": "https://ge1.me/sublimetext-sign-issues",
+			"previous_names": ["Signatori"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/fnkr/ST-Sign/tags"
+				}
+			]
+		},
+		{
+			"name": "FakeImg Image Placeholder Snippet",
+			"details": "https://github.com/fnkr/ST-FakeIMG",
+			"issues": "https://ge1.me/sublimetext-fakeimg-issues",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"details": "https://github.com/fnkr/ST-FakeIMG/tags"
+				}
+			]
+		}
+	]
+}

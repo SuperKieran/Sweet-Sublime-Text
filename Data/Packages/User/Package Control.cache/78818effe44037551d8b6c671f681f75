@@ -1,0 +1,53 @@
+{
+  "schema_version": "2.0",
+  "packages": [
+    {
+      "name": "IPS Syntax",
+      "author": "Matt C",
+      "details": "https://github.com/Skullmonkey/IPS-Syntax",
+      "labels": ["language syntax"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/Skullmonkey/IPS-Syntax/tags"
+        }
+      ]
+    },
+    {
+      "name": "IPS BBCode",
+      "author": "Matt C",
+      "details": "https://github.com/Skullmonkey/IPS-BBCode",
+      "labels": ["language syntax"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/Skullmonkey/IPS-BBCode/tags"
+        }
+      ]
+    },
+    {
+      "name": "Logitech G-Series LUA API",
+      "author": "Matt C",
+      "details": "https://github.com/Skullmonkey/LGS-LUA",
+      "labels": ["language syntax", "auto-complete", "lua", "completion"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/Skullmonkey/LGS-LUA/tags"
+        }
+      ]
+    },
+    {
+      "name": "BBCode Syntax",
+      "author": "Matt C",
+      "details": "https://github.com/Skullmonkey/BBCode-Syntax",
+      "labels": ["language syntax"],
+      "releases": [
+        {
+          "sublime_text": "*",
+          "details": "https://github.com/Skullmonkey/BBCode-Syntax/tags"
+        }
+      ]
+    }
+  ]
+}
